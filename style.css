@@ -1,0 +1,125 @@
+body {
+  background-image: url(Assets/bromo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  padding: 0 150px;
+  margin: 0;
+  position: relative;
+}
+
+.navbar {
+  background-color: #ffffff33;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  margin-top: 40px;
+  border: 1px solid #ffffff5e;
+  border-radius: 80px;
+  backdrop-filter: blur(16px);
+}
+
+.icon-navbar {
+  font-size: 24px;
+  color: #181818;
+  width: 72px;
+  height: 72px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 80px;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.icon-navbar:hover {
+  font-size: 28px;
+}
+
+.title-navbar {
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 0;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrap-main-content {
+  margin-top: 50px;
+  backdrop-filter: blur(20px);
+  background-color: #ffffff33;
+  border-radius: 40px;
+  border: 1px solid #ffffff98;
+  padding: 40px;
+}
+
+#image-bromo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.text-title {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.text-desc {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  color: white;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.wrapper-wisata {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.card-wisata {
+  backdrop-filter: blur(20px);
+  background-color: #ffffff33;
+  border: 1px solid #ffffff98;
+  padding: 20px;
+  border-radius: 40px;
+}
+
+.image-wisata {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin: 0;
+}
+
+.location-wisata {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+}
+
+.icon-loc {
+  font-size: 30px;
+  color: white;
+}
+
+.name-wisata {
+  font-size: 22px;
+  color: white;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
